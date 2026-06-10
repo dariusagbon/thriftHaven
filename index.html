@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thrift Haven – Curated preloved fashion for the style-conscious and sustainability-minded shopper." />
+  <title>Thrift Haven – Preloved, Never Forgotten</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="nav-header" id="nav-header">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Thrift<span>Haven</span></a>
+
+      <!-- Desktop nav links -->
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#benefits">Why Us</a>
+        <a href="#products">Shop</a>
+        <a href="#offer">Deals</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Cart icon button -->
+      <button class="cart-btn" id="cart-btn" aria-label="Open shopping cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+      </button>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="#benefits">Why Us</a>
+      <a href="#products">Shop</a>
+      <a href="#offer">Deals</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO / LANDING PAGE
+  ============================================================ -->
+  <section class="hero" id="hero" aria-label="Hero">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">New arrivals every week</p>
+      <h1 class="hero-headline">
+        Dress Well.<br />
+        <em>Spend Less.</em><br />
+        Save the Planet.
+      </h1>
+      <p class="hero-sub">Curated preloved fashion—designer finds, vintage gems, and everyday essentials—all under one roof at prices that won't make you wince.</p>
+      <div class="hero-cta-group">
+        <a href="#products" class="btn btn-primary">Browse Collection</a>
+        <a href="#lead-capture" class="btn btn-ghost">Get 10% Off</a>
+      </div>
+
+      <!-- Floating stat badges -->
+      <div class="hero-stats" aria-label="Key statistics">
+        <div class="stat-badge">
+          <strong>4,200+</strong>
+          <span>Items listed</span>
+        </div>
+        <div class="stat-badge">
+          <strong>₱180 avg</strong>
+          <span>Price per piece</span>
+        </div>
+        <div class="stat-badge">
+          <strong>98%</strong>
+          <span>Happy shoppers</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero image collage -->
+    <div class="hero-visuals" aria-hidden="true">
+      <div class="hero-img hero-img-main">
+        <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=600&q=80" alt="Model wearing thrifted outfit" loading="eager" />
+        <div class="price-tag">₱250</div>
+      </div>
+      <div class="hero-img hero-img-sm hero-img-top">
+        <img src="https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=400&q=80" alt="Vintage denim jacket" loading="lazy" />
+      </div>
+      <div class="hero-img hero-img-sm hero-img-bot">
+        <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80" alt="Styled thrift finds" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOCIAL PROOF – TESTIMONIALS
+  ============================================================ -->
+  <section class="testimonials" id="testimonials" aria-label="Customer testimonials">
+    <div class="section-inner">
+      <p class="section-eyebrow">Loved by real people</p>
+      <h2 class="section-title">What our shoppers say</h2>
+
+      <div class="testimonials-grid">
+
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>"Found a barely-worn Levi's jacket for ₱180. My friends thought I spent thousands. Thrift Haven is literally a cheat code."</blockquote>
+          <footer>
+            <img src="https://i.pravatar.cc/48?img=47" alt="Mia portrait" class="avatar" loading="lazy" />
+            <div>
+              <strong>Mia Reyes</strong>
+              <span>DLSU student, Manila</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testimonial-card testimonial-card--featured">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>"I refresh the site every Monday for new drops. Sustainable, affordable, and actually stylish — rare combo."</blockquote>
+          <footer>
+            <img src="https://i.pravatar.cc/48?img=32" alt="Carlos portrait" class="avatar" loading="lazy" />
+            <div>
+              <strong>Carlos Tan</strong>
+              <span>Graphic designer, BGC</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>"Ordered three pieces, got them the next day. The quality was so much better than expected. Will definitely be back!"</blockquote>
+          <footer>
+            <img src="https://i.pravatar.cc/48?img=15" alt="Lia portrait" class="avatar" loading="lazy" />
+            <div>
+              <strong>Lia Santos</strong>
+              <span>Young professional, QC</span>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BENEFITS SECTION
+  ============================================================ -->
+  <section class="benefits" id="benefits" aria-label="Why choose Thrift Haven">
+    <div class="section-inner benefits-inner">
+      <div class="benefits-text">
+        <p class="section-eyebrow">The Thrift Haven way</p>
+        <h2 class="section-title">Fashion that feels good—<em>on you and the earth.</em></h2>
+        <p class="benefits-desc">We hand-pick every piece so you don't have to dig through mountains of stuff to find treasure. Every item is inspected, cleaned, and ready to wear.</p>
+      </div>
+
+      <div class="benefits-cards">
+        <div class="benefit-card">
+          <div class="benefit-icon" aria-hidden="true">💸</div>
+          <h3>Wallet-friendly</h3>
+          <p>Pieces from ₱80 to ₱600. Get designer labels at a fraction of retail prices.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon" aria-hidden="true">🌿</div>
+          <h3>Eco-conscious</h3>
+          <p>Every preloved piece diverts clothing from landfill — up to 3,781 litres of water saved per item.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon" aria-hidden="true">✨</div>
+          <h3>One-of-a-kind finds</h3>
+          <p>No fast-fashion clones. Every item is unique — your wardrobe will be too.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon" aria-hidden="true">🚚</div>
+          <h3>Fast nationwide shipping</h3>
+          <p>Metro Manila same-day option available. Provincial orders in 1–3 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LEAD CAPTURE / EMAIL SIGNUP
+  ============================================================ -->
+  <section class="lead-capture" id="lead-capture" aria-label="Email signup for discount">
+    <div class="lead-capture-inner">
+      <div class="coupon-visual" aria-hidden="true">
+        <div class="coupon-card">
+          <span class="coupon-pct">10%</span>
+          <span class="coupon-off">OFF</span>
+          <span class="coupon-code">HAVEN10</span>
+        </div>
+      </div>
+
+      <div class="lead-form-wrap">
+        <p class="section-eyebrow">Limited offer</p>
+        <h2 class="section-title">Get 10% off your first order</h2>
+        <p>Drop your email and we'll send your exclusive coupon code—plus first access to new drops every week.</p>
+
+        <form id="lead-form" class="lead-form" novalidate aria-label="Email signup form">
+          <div class="form-group">
+            <label for="lead-name">Your first name</label>
+            <input type="text" id="lead-name" name="name" placeholder="e.g. Mia" autocomplete="given-name" required minlength="2" />
+            <span class="field-error" id="lead-name-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="lead-email">Email address</label>
+            <input type="email" id="lead-email" name="email" placeholder="you@example.com" autocomplete="email" required />
+            <span class="field-error" id="lead-email-error" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Claim My 10% Coupon →</button>
+          <p class="form-note">No spam, ever. Unsubscribe anytime.</p>
+        </form>
+
+        <!-- Success state (hidden by default) -->
+        <div class="lead-success" id="lead-success" hidden aria-live="assertive">
+          <div class="success-icon" aria-hidden="true">🎉</div>
+          <h3>You're in, <span id="success-name"></span>!</h3>
+          <p>Your coupon code is <strong class="coupon-highlight">HAVEN10</strong>. Check your inbox for a confirmation.</p>
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED PRODUCTS
+  ============================================================ -->
+  <section class="products" id="products" aria-label="Featured products">
+    <div class="section-inner">
+      <p class="section-eyebrow">Hand-picked for you</p>
+      <h2 class="section-title">This week's top finds</h2>
+
+      <div class="products-grid" id="products-grid">
+        <!-- Product cards injected by JavaScript -->
+      </div>
+
+      <div class="products-footer">
+        <p>Showing 8 of 4,200+ items</p>
+        <a href="#lead-capture" class="btn btn-ghost">Sign up to unlock all listings</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LIMITED-TIME OFFER + COUNTDOWN
+  ============================================================ -->
+  <section class="offer" id="offer" aria-label="Limited time offer">
+    <div class="offer-inner">
+      <div class="offer-text">
+        <div class="offer-badge" aria-hidden="true">🔥 Flash Sale</div>
+        <h2 class="offer-headline">Extra 15% off sitewide — today only.</h2>
+        <p>Use code <strong>FLASH15</strong> at checkout. Sale ends at midnight. Don't sleep on it.</p>
+        <a href="#products" class="btn btn-primary">Shop the Sale</a>
+      </div>
+
+      <!-- Countdown Timer -->
+      <div class="countdown" aria-label="Time remaining for sale">
+        <div class="countdown-unit">
+          <span class="count-num" id="cd-hours">00</span>
+          <span class="count-label">Hours</span>
+        </div>
+        <div class="countdown-sep" aria-hidden="true">:</div>
+        <div class="countdown-unit">
+          <span class="count-num" id="cd-minutes">00</span>
+          <span class="count-label">Minutes</span>
+        </div>
+        <div class="countdown-sep" aria-hidden="true">:</div>
+        <div class="countdown-unit">
+          <span class="count-num" id="cd-seconds">00</span>
+          <span class="count-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CHECKOUT SECTION
+  ============================================================ -->
+  <section class="checkout-section" id="checkout" aria-label="Checkout">
+    <div class="section-inner">
+      <p class="section-eyebrow">Almost there</p>
+      <h2 class="section-title">Complete your order</h2>
+
+      <div class="checkout-layout">
+        <!-- Checkout form -->
+        <form class="checkout-form" id="checkout-form" novalidate aria-label="Checkout form">
+          <h3>Delivery information</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="co-fname">First name</label>
+              <input type="text" id="co-fname" name="fname" autocomplete="given-name" required minlength="2" placeholder="Mia" />
+              <span class="field-error" id="co-fname-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="co-lname">Last name</label>
+              <input type="text" id="co-lname" name="lname" autocomplete="family-name" required minlength="2" placeholder="Reyes" />
+              <span class="field-error" id="co-lname-error" role="alert"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="co-email">Email</label>
+            <input type="email" id="co-email" name="email" autocomplete="email" required placeholder="you@example.com" />
+            <span class="field-error" id="co-email-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="co-phone">Phone number</label>
+            <input type="tel" id="co-phone" name="phone" autocomplete="tel" required pattern="[0-9+\-\s]{7,15}" placeholder="09xx xxx xxxx" />
+            <span class="field-error" id="co-phone-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="co-address">Full address</label>
+            <input type="text" id="co-address" name="address" autocomplete="street-address" required minlength="10" placeholder="House no., street, barangay, city" />
+            <span class="field-error" id="co-address-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="co-coupon">Coupon code (optional)</label>
+            <div class="coupon-row">
+              <input type="text" id="co-coupon" name="coupon" placeholder="e.g. HAVEN10" />
+              <button type="button" class="btn btn-ghost btn-sm" id="apply-coupon">Apply</button>
+            </div>
+            <span class="coupon-msg" id="coupon-msg" role="alert"></span>
+          </div>
+
+          <h3>Payment method</h3>
+          <div class="payment-options" role="radiogroup" aria-label="Payment method">
+            <label class="payment-opt">
+              <input type="radio" name="payment" value="gcash" checked />
+              <span>GCash</span>
+            </label>
+            <label class="payment-opt">
+              <input type="radio" name="payment" value="cod" />
+              <span>Cash on Delivery</span>
+            </label>
+            <label class="payment-opt">
+              <input type="radio" name="payment" value="bank" />
+              <span>Bank Transfer</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="place-order-btn">Place Order →</button>
+        </form>
+
+        <!-- Order summary -->
+        <aside class="order-summary" aria-label="Order summary">
+          <h3>Order summary</h3>
+          <ul class="summary-items" id="summary-items">
+            <li class="summary-empty">Your cart is empty. <a href="#products">Add items →</a></li>
+          </ul>
+          <div class="summary-totals">
+            <div class="summary-row"><span>Subtotal</span><span id="summary-subtotal">₱0</span></div>
+            <div class="summary-row" id="discount-row" style="display:none;color:var(--accent)"><span>Discount</span><span id="summary-discount">−₱0</span></div>
+            <div class="summary-row"><span>Shipping</span><span id="summary-shipping">₱80</span></div>
+            <div class="summary-row summary-total"><span>Total</span><span id="summary-total">₱80</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THANK YOU / CONFIRMATION MODAL
+  ============================================================ -->
+  <div class="modal-overlay" id="thankyou-modal" role="dialog" aria-modal="true" aria-labelledby="ty-title" hidden>
+    <div class="modal-box thankyou-box">
+      <button class="modal-close" id="ty-close-icon" type="button" aria-label="Close confirmation dialog">✕</button>
+      <div class="ty-confetti" aria-hidden="true">🎊</div>
+      <h2 id="ty-title">Thank you, <span id="ty-name"></span>! 🎉</h2>
+      <p>Your order has been placed. You'll receive a confirmation at <strong id="ty-email"></strong> shortly.</p>
+      <p class="ty-ref">Order ref: <strong id="ty-ref"></strong></p>
+
+      <div class="ty-social">
+        <p>Tag us in your hauls and get featured on our page!</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Follow on Instagram">📸 @ThriftHavenPH</a>
+          <a href="#" class="social-link" aria-label="Follow on TikTok">🎵 @ThriftHavenPH</a>
+        </div>
+      </div>
+
+      <div class="ty-referral">
+        <p>Share your referral code and earn ₱50 credit per friend who orders:</p>
+        <div class="referral-code" id="ty-referral-code" aria-live="polite">HAVEN-XXXXXX</div>
+        <button class="btn btn-ghost btn-sm" id="copy-referral">Copy code</button>
+      </div>
+
+      <button class="btn btn-primary" id="ty-close">Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SHOPPING CART SIDEBAR
+  ============================================================ -->
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Your bag <span id="cart-header-count">(0 items)</span></h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">✕</button>
+    </div>
+    <ul class="cart-items" id="cart-items" aria-live="polite">
+      <li class="cart-empty" id="cart-empty">Your bag is empty. Start adding some finds! 🛍️</li>
+    </ul>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <strong id="cart-total">₱0</strong>
+      </div>
+      <a href="#checkout" class="btn btn-primary btn-full" id="checkout-btn">Proceed to Checkout</a>
+    </div>
+  </aside>
+
+  <!-- ============================================================
+       FOOTER / CONTACT
+  ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Thrift<span>Haven</span></p>
+        <p>Preloved, never forgotten. Shop consciously, style freely.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+          <a href="#" aria-label="Facebook">💙</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Shop</h4>
+        <a href="#products">All Items</a>
+        <a href="#offer">Sale</a>
+        <a href="#lead-capture">Join the Club</a>
+      </div>
+      <div class="footer-links">
+        <h4>Help</h4>
+        <a href="#">FAQs</a>
+        <a href="#">Returns</a>
+        <a href="#">Shipping</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="mailto:hello@thrifthaven.ph">hello@thrifthaven.ph</a>
+        <a href="#">Messenger</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Thrift Haven. Made with 💚 in the Philippines.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
