@@ -5,7 +5,7 @@ const products = [
     category: 'Outerwear',
     price: 180,
     origPrice: 520,
-    image: 'https://images.unsplash.com/photo-1551854838-4ca9d6c4ce28?w=900&q=80',
+    image: 'product_image/levi.png',
     tag: 'NEW',
   },
   {
@@ -23,7 +23,7 @@ const products = [
     category: 'Tops',
     price: 140,
     origPrice: 360,
-    image: 'https://images.unsplash.com/photo-1520975917292-0e2cf5c62ae9?w=900&q=80',
+    image: 'product_image/skitter.png',
     tag: 'TRENDY',
   },
   {
@@ -32,7 +32,7 @@ const products = [
     category: 'Bottoms',
     price: 130,
     origPrice: 360,
-    image: 'https://images.unsplash.com/photo-1495121605193-b116b5b9c5d4?w=900&q=80',
+    image: 'product_image/skirt.png',
     tag: 'LIMITED',
   },
   {
@@ -50,7 +50,7 @@ const products = [
     category: 'Accessories',
     price: 85,
     origPrice: 240,
-    image: 'https://images.unsplash.com/photo-1504291513532-422d4c3abf80?w=900&q=80',
+    image: 'product_image/sunglasses.png',
     tag: 'BESTSELLER',
   },
   {
@@ -68,7 +68,7 @@ const products = [
     category: 'Accessories',
     price: 95,
     origPrice: 210,
-    image: 'https://images.unsplash.com/photo-1457348732941-738ed26dff12?w=900&q=80',
+    image: 'product_image/corduroy.png',
     tag: 'TRENDY',
   },
 ];
